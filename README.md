@@ -1,6 +1,6 @@
 # Dev News
 
-Small React application to showcase news related to the IT world, offering basically:
+Small React application trying to simulate news page related to the IT world, offering basically:
 
 - Feed withs news posted;
 - News search;
