@@ -1,10 +1,55 @@
-# Getting Started with Create React App
+# Dev News
+
+Small React application to showcase news related to the IT world, offering basically:
+
+- Feed withs news posted;
+- News search;
+- Filtering by tags;
+- News details page;
+
+Built to showcase and exercise application building.\
+To install this application and run it, please see [the Available Scripts section](#Available-Scripts)
+
+## Libraries
+
+### `material-ui`
+
+Material-UI was the chosen library for UI components, since it gives fast prototyping and usage.\
+Affinity and experience also influenced on this choice.\
+
+Styled Components library could be used as well, but it would introduce overhead on building the components from scratch.
+
+### `axios`
+
+Chosen library to connect to TMDB APIs, as it requires little setup and it is pretty straightforward.\
+Implementation can be found in the [`api.js` file.](./src/services/api.js)
+
+### `react-router`
+
+Picked to introduce Home Page <> Detail navigation, allowing loading a Detail page directly by its url.\
+
+## Todo:
+
+Those features are marked as future improvements and bug fixing
+
+- Sidebar Links
+
+- Search by tags
+
+- Lazy loading: https://web.dev/code-splitting-suspense/?utm_source=lighthouse&utm_medium=devtools
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `yarn install`
+
+Installs the dependencies for this application.\
+You can run `npm run install` alternatively.
 
 ### `yarn start`
 
